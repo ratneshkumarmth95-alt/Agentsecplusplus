@@ -1,0 +1,6 @@
+[2026-09-24 22:11:56] Event: LoginFailure | IP: 45.33.22.11 | DCS: 0.66 | Action: Notify Admin | Details: Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.900000
+[2026-09-24 22:11:56] Event: LoginFailure | IP: 45.33.22.11 | DCS: 0.66 | Action: Notify Admin | Details: Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.900000
+[2026-09-24 22:11:56] Event: LoginFailure | IP: 45.33.22.11 | DCS: 0.72 | Action: Notify Admin | Details: Severity=0.500000, RuleMatch=0.900000, History=0.700000, Reputation=0.900000
+[2026-09-24 22:11:56] Event: PortScan | IP: 192.168.1.100 | DCS: 0.3625 | Action: Ignore | Details: Severity=0.250000, RuleMatch=0.700000, History=0.400000, Reputation=0.100000
+[2026-09-24 22:11:56] Event: MalwareAlert | IP: 45.33.22.11 | DCS: 0.92 | Action: Block IP | Details: Severity=1.000000, RuleMatch=1.000000, History=0.700000, Reputation=0.900000
+[2026-09-24 22:11:56] Event: LoginFailure | IP: 10.0.0.5 | DCS: 0.58 | Action: Ignore | Details: Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.500000

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "LoginFailure",
+  "ip": "45.33.22.11",
+  "severity": "Medium",
+  "dcs": 0.66,
+  "action": "Notify Admin",
+  "reason": "Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.900000"
+}
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "LoginFailure",
+  "ip": "45.33.22.11",
+  "severity": "Medium",
+  "dcs": 0.66,
+  "action": "Notify Admin",
+  "reason": "Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.900000"
+}
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "LoginFailure",
+  "ip": "45.33.22.11",
+  "severity": "Medium",
+  "dcs": 0.72,
+  "action": "Notify Admin",
+  "reason": "Severity=0.500000, RuleMatch=0.900000, History=0.700000, Reputation=0.900000"
+}
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "PortScan",
+  "ip": "192.168.1.100",
+  "severity": "Low",
+  "dcs": 0.3625,
+  "action": "Ignore",
+  "reason": "Severity=0.250000, RuleMatch=0.700000, History=0.400000, Reputation=0.100000"
+}
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "MalwareAlert",
+  "ip": "45.33.22.11",
+  "severity": "Critical",
+  "dcs": 0.92,
+  "action": "Block IP",
+  "reason": "Severity=1.000000, RuleMatch=1.000000, History=0.700000, Reputation=0.900000"
+}
+{
+  "timestamp": "2026-09-24 22:11:56",
+  "event": "LoginFailure",
+  "ip": "10.0.0.5",
+  "severity": "Medium",
+  "dcs": 0.58,
+  "action": "Ignore",
+  "reason": "Severity=0.500000, RuleMatch=0.900000, History=0.400000, Reputation=0.500000"
+}
