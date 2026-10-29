@@ -1,0 +1,4 @@
+login_fail,192.168.1.10,8,Multiple failed logins,10
+port_scan,10.0.0.5,7,Suspicious port sweep,25
+malware,172.16.1.1,10,Trojan detected,Trojan.Win32
+file_tamper,127.0.0.1,9,System file modified,C:\Windows\System32\config.sys
