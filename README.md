@@ -18,17 +18,17 @@ An Explainable, Object-Oriented Autonomous Cybersecurity Agent Framework
 
 📌 Table of Contents
 
-1. "⚡ What is AgentSec++?" (#-what-is-agentsec)
-2. "🧠 Core Concept" (#-core-concept)
-3. "🚀 Key Features" (#-key-features)
-4. "🏗️ System Architecture" (#️-system-architecture)
-5. "💻 Technology Stack" (#-technology-stack)
-6. "🎯 Example Scenario" (#-example-scenario)
-7. "🧩 Object-Oriented Design" (#-object-oriented-design)
-8. "🗺️ Roadmap" (#️-roadmap)
-9. "🔮 Future Possibilities" (#-future-possibilities)
-10. "🤝 Contributing" (#-contributing)
-11. "⭐ Support the Project" (#-support-the-project)
+[⚡ What is AgentSec++?](#-what-is-agentsec)
+[🧠 Core Concept](#-core-concept)
+[🚀 Key Features](#-key-features)
+[🏗️ System Architecture](#️-system-architecture)
+[💻 Technology Stack](#-technology-stack)
+[🎯 Example Scenario](#-example-scenario)
+[🧩 Object-Oriented Design](#-object-oriented-design)
+[🗺️ Roadmap](#️-roadmap)
+[🔮 Future Possibilities](#-future-possibilities)
+[🤝 Contributing](#-contributing)
+[⭐ Support the Project](#-support-the-project)
 
 ---
 
