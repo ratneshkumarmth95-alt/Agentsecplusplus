@@ -1,0 +1,6 @@
+[
+  {"eventType": "LoginFailure", "sourceIP": "192.168.1.10", "action": "BlockIP", "confidence": 0.67, "reason": "Rule=LoginRule DCS=0.67 Strategy=Balanced"},
+  {"eventType": "PortScan", "sourceIP": "10.0.0.5", "action": "BlockIP", "confidence": 0.635, "reason": "Rule=PortScanRule DCS=0.635 Strategy=Balanced"},
+  {"eventType": "MalwareAlert", "sourceIP": "172.16.1.1", "action": "QuarantineDevice", "confidence": 0.74, "reason": "Rule=MalwareRule DCS=0.74 Strategy=Balanced"},
+  {"eventType": "FileTampering", "sourceIP": "127.0.0.1", "action": "QuarantineDevice", "confidence": 0.68, "reason": "Rule=FileTamperingRule DCS=0.68 Strategy=Balanced"}
+]
