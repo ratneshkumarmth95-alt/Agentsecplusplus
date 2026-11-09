@@ -38,7 +38,10 @@ public:
     }
 
     void setStrategy(std::unique_ptr<DecisionStrategy> newStrategy) {
+    if (newStrategy) {
         strategy = std::move(newStrategy);
+    }
+}
     }
     
     std::string getStrategyName() const {
