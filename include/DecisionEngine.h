@@ -34,15 +34,17 @@ public:
     }
 
     void addRule(std::unique_ptr<Rule> rule) {
+    if (rule) {
         rules.push_back(std::move(rule));
     }
+}
 
     void setStrategy(std::unique_ptr<DecisionStrategy> newStrategy) {
     if (newStrategy) {
         strategy = std::move(newStrategy);
     }
 }
-    }
+    
     
     std::string getStrategyName() const {
         return strategy->getStrategyName();
