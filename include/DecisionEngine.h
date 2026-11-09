@@ -2,6 +2,8 @@
 #include <vector>
 #include <memory>
 #include <map>
+#include <string>
+#include <tuple>
 #include "Rules.h"
 #include "DecisionStrategy.h"
 
