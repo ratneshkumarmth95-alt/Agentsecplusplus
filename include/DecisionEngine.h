@@ -48,7 +48,7 @@ public:
     // Evaluates event and returns <Action, DCS, Reason>
     std::tuple<std::unique_ptr<Action>, double, std::string> evaluate(const SecurityEvent& event) {
         // Update history
-        historicalFrequency[event.getSourceIP()]++;
+        
 
         double maxRuleMatch = 0.0;
         for (const auto& rule : rules) {
@@ -60,6 +60,7 @@ public:
 
         double severityScore = getSeverityScore(event.getSeverity());
         double historyScore = calculateHistoricalFrequencyScore(event.getSourceIP());
+        historicalFrequency[event.getSourceIP()]++;
         double reputationScore = getSourceReputationScore(event.getSourceIP());
 
         // Calculate Decision Confidence Score (DCS)
