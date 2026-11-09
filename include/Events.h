@@ -5,6 +5,7 @@
 #include <ctime>
 #include <iomanip>
 #include <sstream>
+#include <stdexcept>
 
 enum class Severity { LOW, MEDIUM, HIGH, CRITICAL };
 
@@ -45,10 +46,20 @@ protected:
     }
 
 public:
-    SecurityEvent(const std::string& ip, Severity sev, const std::string& desc, const std::string& type)
-        : sourceIP(ip), severity(sev), description(desc), eventType(type) {
-        timestamp = generateTimestamp();
-    }
+ SecurityEvent(const std::string& ip, Severity sev, const std::string& desc, const std::string& type)
+    : sourceIP(ip), severity(sev), description(desc), eventType(type) {
+
+    if (sourceIP.empty())
+        throw std::invalid_argument("Source IP cannot be empty");
+
+    if (description.empty())
+        throw std::invalid_argument("Event description cannot be empty");
+
+    if (eventType.empty())
+        throw std::invalid_argument("Event type cannot be empty");
+
+    timestamp = generateTimestamp();
+}
     virtual ~SecurityEvent() = default;
     
     virtual void display() const {
